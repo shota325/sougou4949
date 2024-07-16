@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/**標題**/
+.title{
+    font-size: 30px;
+    text-align: center;
+    border: solid 2px #ed0b9e;
+    border-radius: 6px;
+    background: #ed0b9e;
+    color: #fff;
+}
+
+/**分割線**/
+.border{
+    border-width: 100%;
+    border: 1px solid #937e8c;
+    margin-bottom: 30px;
+
+}
+
+/**基本入力フォーム**/
+.inputs{
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+/**大きいラベル**/
+.label{
+    font-size: large;
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 3px #FF6701;
+    padding-left: 10px;
+}
+
+/**左端ラベル（消す為）**/
+.label1-1{
+    float: left;
+    margin-right: 20px;
+    width: 135px;
+    border-left: solid 3px #fff;
+    padding-left: 10px;
+    color: #fff;
+}
+
+/**小さいラベル（小見出し　左）**/
+.label2{
+    font-size: large;
+    float: left;
+    margin-right: 5px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　左 消す為）**/
+.label2-2{
+    font-size: large;
+    float: left;
+    margin-right: 5px;
+    width: 150px;
+    border-left: solid 3px #fff;
+    padding-left: 10px;
+    color: #fff
+}
+
+/**小さいラベル（小見出し　担当・式場・火葬区分・紹介の有無）**/
+.label3{
+    font-size: large;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　右　日時）**/
+.label4{
+    font-size: large;
+    margin-left: 34px;
+    margin-right: 95px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　右　寺院の人数）**/
+.label5{
+    font-size: large;
+    margin-left: 85px;
+    margin-right: 80px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　右　故人の状態）**/
+.label6{
+    font-size: large;
+    margin-left: 85px;
+    margin-right: 112px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　右　控室）**/
+.label7{
+    font-size: large;
+    margin-left: 82px;
+    margin-right: 112px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**小さいラベル（小見出し　搬送距離）**/
+.label8{
+    font-size: large;
+    margin-left: 82px;
+    margin-right: 80px;
+    width: 150px;
+    border-left: solid 3px #99ebf7;
+    padding-left: 10px;
+}
+
+/**左　ラベル**/
+.input_list{
+    block-size: large;
+    font-size: large;
+    width: 200px;
+    margin-right: 10px;
+}
+
+/**右　ラベル　４文字**/
+.input_list2{
+    font-size: large;
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 16px;
+}
+
+/**数値入力**/
+.input_list3{
+    font-size: large;
+    width: 80px;
+    margin-right: 10px;
+}
+
+/**文字入力**/
+.input_form{
+    font-size: large;
+    width: 198px;
+}
+
+/**日時入力**/
+.input_form2{
+    font-size: large;
+    width: 120px;
+}
+
+/**住所入力**/
+.input_form3{
+    font-size: large;
+    width: 400px;
+}
+
+
+/**チェックボックス（紹介の有無）**/
+.input_check{
+    font-size: large;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+/**数字入力**/
+.input_number{
+    font-size: large;
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 10px;
+}

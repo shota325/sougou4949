@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>カタログ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="toggleAccordion(event, 'accordionMenu1')">プラン</a>
+                    <ul id="accordionMenu1" class="accordion-content">
+                        <li><a href="#" onclick="loadImages('menu4', event)">雲海の間</a></li>
+                        <li><a href="#" onclick="loadImages('menu5', event)">ファミリエ</a></li>
+                        <li><a href="#" onclick="loadImages('menu6', event)">泉の間</a></li>
+                        <li><a href="#" onclick="loadImages('menu7', event)">ゆかりの間</a></li>
+                        <li><a href="#" onclick="loadImages('menu8', event)">リビング葬</a></li>
+                        <li><a href="#" onclick="loadImages('menu9', event)">CH仁方</a></li>
+                        <li><a href="#" onclick="loadImages('menu10', event)">呉本通</a></li>
+                        <li><a href="#" onclick="loadImages('menu11', event)">三宝苑</a></li>
+                        <li><a href="#" onclick="loadImages('menu12', event)">光慈苑</a></li>
+                        <li><a href="#" onclick="loadImages('menu17', event)">いい葬儀</a></li>
+                    </ul>
+                <li><a href="#" onclick="loadImages('menu1', event)">棺</a></li>
+                <li><a href="#" onclick="loadImages('menu2', event)">骨壺</a></li>
+                <li><a href="#" onclick="loadImages('menu3', event)">湯灌</a></li>
+                <li><a href="#" onclick="toggleAccordion(event, 'accordionMenu2')">返礼品関連</a>
+                    <ul id="accordionMenu2" class="accordion-content">
+                        <li><a href="#" onclick="loadImages('menu13', event)">会葬礼状</a></li>
+                        <li><a href="#" onclick="loadImages('menu14', event)">会葬品</a></li>
+                        <li><a href="#" onclick="loadImages('menu15', event)">通夜返礼品</a></li>
+                        <li><a href="#" onclick="loadImages('menu16', event)">即日返礼品</a></li>
+                    </ul>
+                <li><a href="#" onclick="loadImages('menu18', event)">車両関連</a></li>
+                <li><a href="#" onclick="loadImages('menu20', event)">生花・供物</a></li>
+                <li><a href="#" onclick="loadImages('menu24', event)">食事関係</a></li>
+                <li><a href="#" onclick="loadImages('menu19', event)">その他関連資料</a></li>
+                <li><a href="#" onclick="toggleAccordion(event, 'accordionMenu3')">遺影写真</a>
+                    <ul id="accordionMenu3" class="accordion-content">
+                        <li><a href="#" onclick="loadImages('menu21', event)">着せ替え</a></li>
+                        <li><a href="#" onclick="loadImages('menu22', event)">背景</a></li>
+                    </ul>
+                <li><a href="#" onclick="loadImages('menu23', event)">QRコード</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <aside>
+            <div class="image-list" id="imageList">
+                <!-- ここに画像が動的に挿入されます -->
+            </div>
+        </aside>
+        <main>
+            <div class="image-display">
+                <img id="mainImage" src="placeholder.jpeg" alt="Selected Image">
+            </div>
+            <div class="top-buttons">
+                <button onclick="goBack(1)" class="btn">1つ前へ戻る</button>
+                <a href="../form/form1.html" class="btn">フォームへ移動</a>
+            </div>
+        </main>
+    </div>
+
+    <script src="data/imageData.js"></script>
+    <script src="scripts.js"></script>
+    <script>
+        function goBack(steps) {
+            window.history.go(-steps); // 履歴を指定したステップ数戻る
+        }
+    </script>
+</body>
+</html>
